@@ -1,0 +1,74 @@
+Age: Best team = nan | Avg = nan
+Matches Played: Best team = Liverpool | Avg = 24.476190476190474
+Starts: Best team = Liverpool | Avg = 17.80952380952381
+Min: Best team = Liverpool | Avg = 1596.3809523809523
+Goals: Best team = Liverpool | Avg = 17.747619047619047
+Assists: Best team = Liverpool | Avg = 3.761904761904762
+Yellow Cards: Best team = Liverpool | Avg = 2.8095238095238093
+Red Cards: Best team = Liverpool | Avg = 6.571428571428571
+xG: Best team = Liverpool | Avg = 3.6285714285714286
+xAG: Best team = Liverpool | Avg = 2.6285714285714286
+PrgC: Best team = Manchester City | Avg = 40.56
+PrgP_x: Best team = Liverpool | Avg = 81.38095238095238
+PrgR_x: Best team = Liverpool | Avg = 80.61904761904762
+Gls90: Best team = Manchester City | Avg = 0.1832
+Ast90: Best team = Liverpool | Avg = 0.14761904761904762
+xG90: Best team = Aston Villa | Avg = 0.19285714285714287
+xAG90: Best team = Chelsea | Avg = 0.15307692307692308
+GA90: Best team = Leicester City | Avg = 2.73
+Save%: Best team = Bournemouth | Avg = 80.0
+CS%: Best team = Everton | Avg = 14.0
+PK Save%: Best team = Manchester Utd | Avg = 4.0
+SoT%: Best team = Nott'ham Forest | Avg = 39.085
+SoT/90: Best team = Bournemouth | Avg = 1.5882608695652174
+G/Sh: Best team = Fulham | Avg = 0.5436363636363637
+Dist: Best team = Arsenal | Avg = 0.13666666666666666
+Cmp: Best team = Liverpool | Avg = 778.0952380952381
+Cmp%: Best team = Manchester City | Avg = 86.54799999999999
+TotDist: Best team = Liverpool | Avg = 13238.142857142857
+Short Cmp%: Best team = Manchester City | Avg = 425.16
+Med Cmp%: Best team = Liverpool | Avg = 375.7142857142857
+Long Cmp%: Best team = Everton | Avg = 117.5909090909091
+KP: Best team = Arsenal | Avg = 0.38636363636363635
+1/3_x: Best team = Liverpool | Avg = 22.0
+PPA: Best team = Liverpool | Avg = 67.71428571428571
+CrsPA: Best team = Liverpool | Avg = 18.61904761904762
+PrgP_y: Best team = Fulham | Avg = 4.2272727272727275
+SCA: Best team = Liverpool | Avg = 49.80952380952381
+SCA90: Best team = Liverpool | Avg = 2.6333333333333333
+GCA: Best team = Liverpool | Avg = 0.3480952380952381
+GCA90: Best team = Liverpool | Avg = 5.0
+Tkl: Best team = Crystal Palace | Avg = 32.61904761904762
+TklW: Best team = Crystal Palace | Avg = 19.142857142857142
+Att_x: Best team = Liverpool | Avg = 28.285714285714285
+Lost_x: Best team = Crystal Palace | Avg = 20.476190476190474
+Blocks: Best team = Brentford | Avg = 8.19047619047619
+Sh: Best team = Crystal Palace | Avg = 14.571428571428571
+Pass: Best team = Bournemouth | Avg = 14.0
+Int: Best team = Crystal Palace | Avg = 46.285714285714285
+Touches: Best team = Liverpool | Avg = 1102.047619047619
+Def Pen: Best team = Brentford | Avg = 138.52380952380952
+Def 3rd: Best team = Brentford | Avg = 348.85714285714283
+Mid 3rd: Best team = Liverpool | Avg = 497.5238095238095
+Att 3rd: Best team = Manchester City | Avg = 343.48
+Att Pen: Best team = Liverpool | Avg = 55.80952380952381
+Att_y: Best team = Liverpool | Avg = 1101.6190476190477
+Succ%: Best team = Manchester City | Avg = 13.68
+Tkld%: Best team = Tottenham | Avg = 14.296296296296296
+Carries: Best team = Leicester City | Avg = 48.30416666666667
+ProDist: Best team = Manchester City | Avg = 643.48
+ProgC: Best team = Manchester City | Avg = 3696.24
+1/3_y: Best team = Manchester City | Avg = 1994.16
+CPA: Best team = Manchester City | Avg = 40.56
+Mis: Best team = Manchester City | Avg = 30.36
+Dis: Best team = Manchester City | Avg = 14.04
+Rec: Best team = Bournemouth | Avg = 22.956521739130434
+PrgR_y: Best team = Newcastle Utd | Avg = 17.652173913043477
+Fls: Best team = Bournemouth | Avg = 19.82608695652174
+Fld: Best team = Newcastle Utd | Avg = 17.608695652173914
+Off: Best team = Nott'ham Forest | Avg = 3.5454545454545454
+Crs: Best team = Fulham | Avg = 36.81818181818182
+Recov: Best team = Tottenham | Avg = 0.14814814814814814
+Won: Best team = Bournemouth | Avg = 71.43478260869566
+Lost_y: Best team = Brentford | Avg = 26.0
+Won%: Best team = Crystal Palace | Avg = 27.142857142857142
