@@ -48,7 +48,6 @@ def GetDataFromWeb(url, Xpath_player, Data_name):
         print("Finish " + Data_name)
     return player_list
 
-#########################################################################################
 # stats_standard
 url = "https://fbref.com/en/comps/9/2024-2025/stats/2024-2025-Premier-League-Stats"
 Xpath_player = '//*[@id="stats_standard"]'
@@ -72,7 +71,6 @@ for p in list:
 cols_player = ['Name','Nation','Team','Position','Age','Matches Played','Starts','Min','Goals','Assists','Yellow Cards','Red Cards','xG','xAG','PrgC','PrgP','PrgR','Gls90','Ast90','xG90','xAG90']
 df_player = pd.DataFrame(player_list, columns=cols_player)
 
-#########################################################################################
 # stats_keeper
 url = "https://fbref.com/en/comps/9/2024-2025/keepers/2024-2025-Premier-League-Stats"
 Xpath_player = '//*[@id="stats_keeper"]'
@@ -87,7 +85,6 @@ for p in list:
     keeper_list.append([Name,Team,GA90, Save_perc, CS_perc, PKSave_perc])
 df_keepers = pd.DataFrame(keeper_list, columns=['Name','Team','GA90', 'Save%', 'CS%', 'PK Save%'])
 
-#########################################################################################
 # stats_shooting
 url = "https://fbref.com/en/comps/9/2024-2025/shooting/2024-2025-Premier-League-Stats"
 Xpath_player = '//*[@id="stats_shooting"]'
@@ -102,7 +99,6 @@ for p in list:
     Shooting_list.append([Name,Team, SoT_perc, SoT_90, G_Sh, Dist])
 df_shooting = pd.DataFrame(Shooting_list, columns=['Name','Team','SoT%','SoT/90','G/Sh','Dist'])
 
-#########################################################################################
 # stats_passing
 url = "https://fbref.com/en/comps/9/2024-2025/passing/2024-2025-Premier-League-Stats"
 Xpath_player = '//*[@id="stats_passing"]'
@@ -119,7 +115,6 @@ for p in list:
     Passing_list.append([Name,Team,Cmp, Cmp_perc, TotDist, sCmp_perc, mCmp_perc, lCmp_perc, KP, a1_3, PPA, CrsPA, PrgP])
 df_Passing = pd.DataFrame(Passing_list, columns=['Name','Team','Cmp','Cmp%','TotDist','Short Cmp%','Med Cmp%','Long Cmp%','KP','1/3','PPA','CrsPA','PrgP'])
 
-#########################################################################################
 # stats_gca
 url = "https://fbref.com/en/comps/9/2024-2025/gca/2024-2025-Premier-League-Stats"
 Xpath_player = '//*[@id="stats_gca"]'
@@ -134,7 +129,6 @@ for p in list:
     GCA_list.append([Name,Team,SCA,SCA90,GCA,GCA90])
 df_GCA = pd.DataFrame(GCA_list, columns=['Name','Team','SCA','SCA90','GCA','GCA90'])
 
-#########################################################################################
 # stats_defense
 url = "https://fbref.com/en/comps/9/2024-2025/defense/2024-2025-Premier-League-Stats"
 Xpath_player = '//*[@id="stats_defense"]'
@@ -149,7 +143,6 @@ for p in list:
     Defense_list.append([Name,Team,Tkl,TklW,Att,Lost,Blocks,Sh,Pass,Int])
 df_defense = pd.DataFrame(Defense_list, columns=['Name','Team','Tkl','TklW','Att','Lost','Blocks','Sh','Pass','Int'])
 
-#########################################################################################
 # stats_possession
 url = "https://fbref.com/en/comps/9/2024-2025/possession/2024-2025-Premier-League-Stats"
 Xpath_player = '//*[@id="stats_possession"]'
@@ -167,7 +160,6 @@ for p in list:
     Possession_list.append([Name,Team,Touches,DefPen,Def3rd,Mid3rd,Att3rd,AttPen,Att,Succ_perc,Tkld_perc,Carries,ProDist,ProgC,a1_3,CPA,Mis,Dis,Rec,PrgR])
 df_possession = pd.DataFrame(Possession_list, columns=['Name','Team','Touches','Def Pen','Def 3rd','Mid 3rd','Att 3rd','Att Pen','Att','Succ%','Tkld%','Carries','ProDist','ProgC','1/3','CPA','Mis','Dis','Rec','PrgR'])
 
-#########################################################################################
 # stats_misc
 url = "https://fbref.com/en/comps/9/2024-2025/misc/2024-2025-Premier-League-Stats"
 Xpath_player = '//*[@id="stats_misc"]'
@@ -182,7 +174,6 @@ for p in list:
     Misc_list.append([Name,Team,Fls,Fld,Off,Crs,Recov,Won,Lost,Won_perc])
 df_misc = pd.DataFrame(Misc_list, columns=['Name','Team','Fls','Fld','Off','Crs','Recov','Won','Lost','Won%'])
 
-#########################################################################################
 # Merge tất cả lại
 dataframes = [df_keepers,df_shooting,df_Passing, df_GCA,df_defense,df_possession, df_misc]
 df_merged = df_player
